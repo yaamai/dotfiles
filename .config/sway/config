@@ -10,6 +10,7 @@ exec fcitx5 -d -r
 exec pasystray &
 exec xfce4-power-manager --daemon
 exec radeon-profile &
+exec wayvnc 127.0.0.1 5900
 
 default_border none
 for_window [class="^.*"] border none
