@@ -1,0 +1,5 @@
+xkb_symbols "basic" {
+    include "jp"
+    modifier_map Mod1 { Muhenkan, Alt_L };
+    modifier_map Mod4 { Henkan, Super_L };
+};
